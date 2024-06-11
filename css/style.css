@@ -1,0 +1,127 @@
+body{ margin: 5px, 5px auto;
+    font-family: 'Kufam', cursive;
+
+}
+header{
+
+    color: white;
+    background: linear-gradient(to top, rgb(6, 163, 72), rgb(37, 111, 141));
+    display: flex;
+    height: 80px;
+    padding: 15px;
+    
+
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    align-items: flex-end;
+    justify-content: space-between;
+   
+}
+nav{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+h1{
+    text-shadow: 5px 2px 2px black;
+}
+
+.description{
+    background-color: rgb(6, 163, 72);
+    color: white;
+    height: 55px;
+    
+}
+
+img{
+    height: 80px;
+    width: 60px;
+}
+
+.haut{
+    display: flex;
+    flex-direction: row;
+}
+
+.japon{
+    background: linear-gradient(rgb(230, 161, 172), rgb(23, 101, 202));
+    height: 250px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+}
+.japon p{
+    display: flex;
+    
+}
+
+.Thailande{
+    background: linear-gradient(rgb(14, 52, 221), rgb(112, 238, 255));
+    height: 250px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+
+}
+.Inde{
+    background: linear-gradient( rgb(112, 238, 255), rgb(212, 192, 12));
+    height: 250px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+
+
+}
+section img{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+}
+section{
+    width: 60%;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+div p{
+    width: 100%;
+    margin-top: 1px;
+
+}
+footer{
+    background-color:  rgb(6, 163, 72);
+    height: 50px;
+    color: white;
+    text-shadow: black;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        width: 90%;
+    }
+    header{
+        background: linear-gradient(to top, rgb(163, 6, 6), rgb(141, 105, 37));
+        
+    }
+    .description{
+        background-color:rgb(163, 6, 6) ;
+    }
+    .japon, .Thailande, .Inde{
+        width: 100%;
+        display: flex;
+        text-align: left;
+        font-size: 7px;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: row;
+        text-align: end;
+    }
+    
+}
